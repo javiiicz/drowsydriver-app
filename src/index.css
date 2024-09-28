@@ -16,6 +16,7 @@
 
 
 .bg {
+    
     filter: contrast(130%) brightness(450%);
     background:
         linear-gradient(140deg,
@@ -31,4 +32,5 @@
     top: 0;
     right: 0;
     z-index: -1;
+    opacity: 90%;
 }

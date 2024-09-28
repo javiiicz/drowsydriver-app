@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react'
 import './App.css'
 import Nav from './components/Nav';
+import Hero from './components/Hero';
+import Desc from './components/Desc';
 
 
 function App() {
@@ -33,7 +35,8 @@ function App() {
             <div className="bg" id="bg" ref={appRef} data-scroll-container/> 
 
             <Nav/>
-            
+            <Hero/>
+            <Desc/>
         </>
     
   )
