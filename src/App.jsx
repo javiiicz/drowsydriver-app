@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 
+
 function App() {
 
   return (
     <>
-        <h1>DrowsyDriver</h1>
+        <h1 className='font-black text-3xl'>DrowsyDriver</h1>
+        
     </>
   )
 }

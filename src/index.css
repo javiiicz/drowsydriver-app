@@ -7,16 +7,22 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 
-
+/* resulting css */
+:root {
+    filter: contrast(130%) brightness(450%);
+    background: 
+      linear-gradient(
+        140deg, 
+        rgba(0,50,255,1), 
+        rgba(150,7,236,0.47)),
+        radial-gradient(
+            rgba(0, 0, 0,0.5),
+            rgba(255,255,255,0.5)
+        ),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 254 254' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='2.46' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    height: 100vh;
+    }
+    
