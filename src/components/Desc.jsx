@@ -1,7 +1,6 @@
 function Desc() {
     return (
-      <div className="container flex flex-col items-center justify-center my-20">
-        <div className="content flex items-center w-4/5 space-x-24">
+      <div className="container flex flex-col items-center justify-center my-52 w-4/5 space-x-2">
           <div className="text flex-1 px-20 py-2">
             <p>
               <span className="font-bold">Drowsy Driver</span> is a solution to the problem of 
@@ -25,7 +24,6 @@ function Desc() {
               className="max-w-full h-auto rounded-lg"
             />
           </div>
-        </div>
       </div>
     );
   }
