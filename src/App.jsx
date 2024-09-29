@@ -3,6 +3,9 @@ import './App.css'
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Desc from './components/Desc';
+import AboutUs from './components/AboutUs';
+
+
 
 
 function App() {
@@ -37,6 +40,7 @@ function App() {
             <Nav/>
             <Hero/>
             <Desc/>
+            <AboutUs/>
         </>
     
   )
