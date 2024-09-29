@@ -1,3 +1,5 @@
+import group from "../assets/group.jpg"
+
 function Next() {
     return (
         <div className="p-[5%]">
@@ -6,6 +8,10 @@ function Next() {
                 <li>In the future, we aim to make DrowsyDriver accessible to everyone. With more time, we envision developing a compact device that can be easily mounted on dashboards, catering to concerned family members, friends, and truck drivers alike.</li>
                 <li>Additionally, we plan to gather data from this device to create an application that alerts family members about their loved ones’ safety. Our goal is to enhance road safety and ensure peace of mind for all users.</li>
             </ul>
+            
+            <div className="flex justify-center">
+                <img src={group} alt="Group photo of the hackers" className="w-[80%] rounded"></img>
+            </div>
 
 
         </div>

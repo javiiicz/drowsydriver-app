@@ -25,8 +25,8 @@ const Camera = () => {
     };
     return (
         <div className='flex flex-row items-center justify-center p-[5%] mt-20'>
-            <div className='text-center text-3xl font-bold bg-gray-800 p-4 rounded hover:bg-violet-500 transition-all'>
-                <button onClick={handleButtonClick} className='text-white'>Try it Out</button>
+            <div onClick={handleButtonClick} className='cursor-pointer text-center text-5xl text-white font-bold bg-gray-800 px-40 py-28 rounded-[100px] hover:bg-violet-500 transition-all shadow'>
+                Try it Out
             </div>
         </div>
     );
