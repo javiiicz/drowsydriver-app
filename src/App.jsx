@@ -12,7 +12,7 @@ import Camera from './components/Camera';
 function App() {
     const appRef = useRef(null);
     const toRef = useRef(null);
-    const SPEED = 2000
+    const SPEED = 1200
     var [date,setDate] = useState(new Date());
     // This ref will store the start time only once when the component is mounted
     const startTime = useRef(Date.now()).current; // Captures the time when component first renders
