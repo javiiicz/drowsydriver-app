@@ -6,6 +6,7 @@ import Desc from './components/Desc';
 import AboutUs from './components/AboutUs';
 
 
+import Camera from './components/Camera';
 
 
 function App() {
@@ -40,6 +41,8 @@ function App() {
             <Nav/>
             <Hero/>
             <Desc/>
+
+            <Camera/>
             <AboutUs/>
         </>
     
