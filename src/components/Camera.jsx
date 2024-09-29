@@ -24,7 +24,7 @@ const Camera = () => {
         }
     };
     return (
-        <div data-aos="zoom-in" className='flex flex-row items-center justify-center p-[5%]'>
+        <div className='flex flex-row items-center justify-center p-[5%]'>
             <div onClick={handleButtonClick} className='cursor-pointer text-center text-5xl text-white font-bold bg-gray-800 px-40 py-28 rounded-[100px] hover:bg-violet-500 transition-all shadow'>
                 Try it Out
             </div>
