@@ -28,13 +28,10 @@ function App() {
     useEffect( () => {
         
         const time = date - startTime
-        console.log(date)
-        console.log(startTime)
-        console.log(time)
         const x = (Math.cos((time)/SPEED)+ 1)/ 2 * 100; // Horizontal position
         const y = (Math.sin((time)/SPEED)+ 1)/ 2 * 100; // Vertical position
-        console.log(x)
-        console.log(y)
+
+
 
 
         if (appRef.current) {

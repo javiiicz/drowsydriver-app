@@ -4,10 +4,11 @@ const Camera = () => {
 
     const handleButtonClick = async () => {
         try {
-            const response = await fetch('http://localhost:5000/execute', {
+            const response = await fetch('http://127.0.0.1:5000/execute', {
                 method: 'POST', // Use POST to call the endpoint
                 headers: {
-                    'Content-Type': 'application/json', // Specify the content type
+                    'Content-Type': 'application/json', 
+                    'Access-Control-Allow-Origin': '*'// Specify the content type
                 },
                 body: JSON.stringify({ /* any data you want to send */ }), // Send data if needed
             });
