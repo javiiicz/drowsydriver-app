@@ -6,7 +6,7 @@ import alans from "../assets/alan.png"
 
 const AboutUs = () => {
   return (
-    <div className="py-16 bg-cover bg-bottom bg-white/20">
+    <div id="us" className="py-16 bg-cover bg-bottom bg-white/20">
       <div className= "mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8 underline underline-offset-2 decoration-violet-500">About Us</h2>
         <p className="text-lg mb-12">

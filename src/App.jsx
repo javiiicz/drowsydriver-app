@@ -6,8 +6,10 @@ import Desc from './components/Desc';
 import AboutUs from './components/AboutUs';
 import Next from './components/Next';
 import Footer from './components/Footer';
+import How from './components/How';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 
 
 import Camera from './components/Camera';
@@ -49,14 +51,15 @@ function App() {
         <>
             {/* Background do not touch */}
             <div className="bg" id="bg" ref={appRef} data-scroll-container />
+            <a id="top"></a>
 
             <Nav />
             <Hero />
             <Desc />
+            <How />
             <Camera />
             <Next />
             <AboutUs />
-
             <Footer/>
         </>
 
