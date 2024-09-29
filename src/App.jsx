@@ -4,6 +4,10 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Desc from './components/Desc';
 import AboutUs from './components/AboutUs';
+import Next from './components/Next';
+import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 import Camera from './components/Camera';
@@ -50,10 +54,18 @@ function App() {
             <Hero />
             <Desc />
             <Camera />
+            <Next />
             <AboutUs />
+
+            <Footer/>
         </>
 
     )
 }
+
+AOS.init({
+    duration: 1000,
+    once: true
+  });
 
 export default App
