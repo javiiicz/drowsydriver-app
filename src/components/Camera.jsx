@@ -24,9 +24,10 @@ const Camera = () => {
         }
     };
     return (
-        <div className='p-[5%]'>
-            <h2 className='text-xl'>Try it Out</h2>
-            <button onClick={handleButtonClick}>Execute</button>
+        <div className='flex flex-row items-center justify-center p-[5%] '>
+            <div className='text-center text-3xl font-bold bg-gray-800 p-4 rounded '>
+                <button onClick={handleButtonClick} className='text-white'>Try it Out</button>
+            </div>
         </div>
     );
 };
